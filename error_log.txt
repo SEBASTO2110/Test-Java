@@ -1,0 +1,69 @@
+[2026-10-27 15:02:39] File db.properties not found, using default values
+    FileNotFoundException: db.properties (No existe el archivo o el directorio)
+        at java.base/java.io.FileInputStream.open0(Native Method)
+        at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.loadConfig(DBConnectionSingleton.java:53)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.getInstance(DBConnectionSingleton.java:27)
+        at com.littlehorizons.erp.Main.main(Main.java:13)
+--------------------------------------------------------------------------------
+[2026-10-27 15:02:40] Database connection
+    SQLException: Access denied for user 'root'@'localhost'
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+        at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:113)
+        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861)
+        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234)
+        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+        at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+        at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.getInstance(DBConnectionSingleton.java:28)
+        at com.littlehorizons.erp.Main.main(Main.java:13)
+--------------------------------------------------------------------------------
+[2026-10-27 15:02:57] File db.properties not found, using default values
+    FileNotFoundException: db.properties (No existe el archivo o el directorio)
+        at java.base/java.io.FileInputStream.open0(Native Method)
+        at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.loadConfig(DBConnectionSingleton.java:53)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.getInstance(DBConnectionSingleton.java:27)
+        at com.littlehorizons.erp.Main.main(Main.java:13)
+--------------------------------------------------------------------------------
+[2026-10-27 15:02:57] Database connection
+    SQLException: Access denied for user 'root'@'localhost'
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+        at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:113)
+        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861)
+        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234)
+        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+        at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+        at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.getInstance(DBConnectionSingleton.java:28)
+        at com.littlehorizons.erp.Main.main(Main.java:13)
+--------------------------------------------------------------------------------
+[2026-10-27 15:04:34] File db.properties not found, using default values
+    FileNotFoundException: db.properties (No existe el archivo o el directorio)
+        at java.base/java.io.FileInputStream.open0(Native Method)
+        at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.loadConfig(DBConnectionSingleton.java:53)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.getInstance(DBConnectionSingleton.java:27)
+        at com.littlehorizons.erp.Main.main(Main.java:13)
+--------------------------------------------------------------------------------
+[2026-10-27 15:04:34] Database connection
+    SQLException: Access denied for user 'root'@'localhost'
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+        at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:113)
+        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861)
+        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234)
+        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+        at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+        at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+        at com.littlehorizons.erp.utils.DBConnectionSingleton.getInstance(DBConnectionSingleton.java:28)
+        at com.littlehorizons.erp.Main.main(Main.java:13)
+--------------------------------------------------------------------------------
