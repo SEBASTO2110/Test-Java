@@ -1,0 +1,30 @@
+# Local credentials
+db.properties
+
+# Build output
+out/
+bin/
+build/
+dist/
+*.class
+
+# NetBeans local settings
+nbproject/private/
+
+# Runtime files
+error_log.txt
+
+# IntelliJ IDEA
+.idea/workspace.xml
+.idea/shelf/
+.idea/usage.statistics.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated electronic invoices
+invoices/
+
+# Generated exports
+exports/

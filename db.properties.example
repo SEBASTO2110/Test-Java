@@ -1,0 +1,5 @@
+# Copy this file as db.properties and fill in your local MySQL credentials.
+# db.properties is ignored by git so passwords are never uploaded.
+db.url=jdbc:mysql://localhost:3306/erp_little_horizons?useSSL=false&serverTimezone=America/Bogota&allowPublicKeyRetrieval=true&characterEncoding=UTF-8
+db.user=root
+db.password=
